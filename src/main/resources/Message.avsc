@@ -1,0 +1,11 @@
+{"namespace": "com.cansever",
+ "type": "record",
+ "name": "Message",
+ "fields": [
+     {"name": "msgId", "type": "string"},
+     {"name": "username",  "type": "string"},
+     {"name": "jid", "type": "string"},
+     {"name": "sentTime", "type": "long"},
+     {"name": "stanza",  "type": "string"}
+ ]
+}
